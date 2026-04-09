@@ -58,11 +58,11 @@ Authentication
   Completion percentage
 
 ## Database Schema
-- Users Table
-  - id
-  - name
-  - email
-  - hashed_password
+- Users Table | Type
+  - id | Intger
+  - name | String
+  - email | String (unique)
+  - hashed_password | String
 - Tasks Table
   - id
   - title
