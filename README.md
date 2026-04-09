@@ -13,6 +13,7 @@ It supports user authentication, task management, and dashboard analytics.
 - Passlib (bcrypt)
 
 ## Setup Instructions
+
 '''bash 
 git clone <your-repo-link>
 cd jira-backend
