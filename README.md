@@ -1,2 +1,13 @@
-# Jira-like-Backend
-This is a Python backend which uses FastAPI, SQLite, SQLAlchemy, PyJWT and Passlib (bcrypt) to function like Jira.
+#Jira-like Task Management API
+
+📌 Overview
+
+This is a backend API for a Jira-like task management system built using FastAPI.
+It supports user authentication, task management, and dashboard analytics.
+
+⚙️ Tech Stack
+FastAPI
+SQLite
+SQLAlchemy
+JWT Authentication (PyJWT)
+Passlib (bcrypt)
