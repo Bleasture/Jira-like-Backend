@@ -40,3 +40,37 @@ Authentication
   ```bash
   Authorization: Bearer <token>
   ```
+## Features
+- User Management
+  Register user
+  Login user
+  Get all users
+- Task Management
+  Create task
+  Get tasks
+  Update task (status/position)
+  Delete task
+  Filter tasks
+- Dashboard
+  Total tasks
+  Tasks by status
+  Overdue tasks
+  Completion percentage
+
+## Database Schema
+- Users Table
+  id
+  name
+  email
+  hashed_password
+- Tasks Table
+  id
+  title
+  description
+  status
+  position
+  deadline
+  created_by
+  assigned_to
+  created_at
+  updated_at
