@@ -1,6 +1,6 @@
-#Jira-like Task Management API
+# Jira-like Task Management API
 
-📌 Overview
+## 📌 Overview
 
 This is a backend API for a Jira-like task management system built using FastAPI.
 It supports user authentication, task management, and dashboard analytics.
