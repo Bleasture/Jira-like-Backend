@@ -1,12 +1,12 @@
-# 🚀 Jira-like Task Management API
+# Jira inspired Task Management API
 
-## 📌 Overview
+## Overview
 This project is a backend API for a Jira-like task management system built using **FastAPI**.  
 It supports user authentication, task management, and dashboard analytics.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - FastAPI
 - SQLite
 - SQLAlchemy
@@ -15,7 +15,7 @@ It supports user authentication, task management, and dashboard analytics.
 
 ---
 
-## ▶️ Setup Instructions
+## Setup Instructions
 
 ```bash
 git clone <your-repo-link>
@@ -37,9 +37,9 @@ Authentication
 - Register → `/register`
 - Login → `/login`
 - Use token in headers:
-  ```bash
+```bash
   Authorization: Bearer <token>
-  ```
+```
 ## Features
 - User Management
   Register user
@@ -58,7 +58,7 @@ Authentication
   Completion percentage
 
 ## Database Schema
-- Users Table
+Users Table
 
 | Field           | Type            |
 | --------------- | --------------- |
@@ -67,7 +67,7 @@ Authentication
 | email           | String (unique) |
 | hashed_password | String          |
 
-- Tasks Table
+Tasks Table
 
 | Field       | Type                                               |
 | ----------- | -------------------------------------------------- |
@@ -95,3 +95,11 @@ Steps:
 - Register and login
 - Set the token variable
 - Test all endpoints
+
+## Notes
+- SQLite is used for simplicity and quick setup
+- JWT tokens are used for authentication
+- Passwords are securely hashed using bcrypt
+
+## Author
+Aditya Tembhurnikar
