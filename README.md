@@ -59,6 +59,7 @@ Authentication
 
 ## Database Schema
 - Users Table
+
 | Field           | Type            |
 | --------------- | --------------- |
 | id              | Integer         |
@@ -67,6 +68,7 @@ Authentication
 | hashed_password | String          |
 
 - Tasks Table
+
 | Field       | Type                                               |
 | ----------- | -------------------------------------------------- |
 | id          | Integer                                            |
