@@ -59,18 +59,18 @@ Authentication
 
 ## Database Schema
 - Users Table
-  id
-  name
-  email
-  hashed_password
+  - id
+  - name
+  - email
+  - hashed_password
 - Tasks Table
-  id
-  title
-  description
-  status
-  position
-  deadline
-  created_by
-  assigned_to
-  created_at
-  updated_at
+  - id
+  - title
+  - description
+  - status
+  - position
+  - deadline
+  - created_by
+  - assigned_to
+  - created_at
+  - updated_at
